@@ -13,10 +13,29 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    // define myNavigationController
+    private var myNavigationController: UINavigationController?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // create FirstViewController
+        let myFirstViewController: FirstViewController = FirstViewController()
+        
+        // create Navigation Controller
+        myNavigationController = UINavigationController(rootViewController: myFirstViewController)
+        
+        // create UIWindow
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        //set myNavigationController to rootViewController
+        self.window?.rootViewController = myNavigationController
+        
+        //This is a convenience method to show the current window and position it in front of all other windows at the same level or lower. If you only want to show the window, change its hidden property to NO.
+        self.window?.makeKeyAndVisible()
+        
+        
         return true
     }
 
