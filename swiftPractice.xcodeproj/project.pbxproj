@@ -13,6 +13,8 @@
 		B34559BB1D69130F00E7AF9F /* swiftPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B34559B91D69130F00E7AF9F /* swiftPractice.xcdatamodeld */; };
 		B34559BD1D69130F00E7AF9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34559BC1D69130F00E7AF9F /* Assets.xcassets */; };
 		B34559C01D69130F00E7AF9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34559BE1D69130F00E7AF9F /* LaunchScreen.storyboard */; };
+		B3C9534E1D6C22C500B50174 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C9534D1D6C22C500B50174 /* FirstViewController.swift */; };
+		B3C953501D6C22D200B50174 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C9534F1D6C22D200B50174 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B34559BC1D69130F00E7AF9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B34559BF1D69130F00E7AF9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B34559C11D69130F00E7AF9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C9534D1D6C22C500B50174 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B3C9534F1D6C22D200B50174 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				B34559B21D69130F00E7AF9F /* AppDelegate.swift */,
 				B34559B41D69130F00E7AF9F /* ViewController.swift */,
+				B3C9534D1D6C22C500B50174 /* FirstViewController.swift */,
+				B3C9534F1D6C22D200B50174 /* SecondViewController.swift */,
 				B34559B61D69130F00E7AF9F /* Main.storyboard */,
 				B34559BC1D69130F00E7AF9F /* Assets.xcassets */,
 				B34559BE1D69130F00E7AF9F /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 				B34559B51D69130F00E7AF9F /* ViewController.swift in Sources */,
 				B34559B31D69130F00E7AF9F /* AppDelegate.swift in Sources */,
 				B34559BB1D69130F00E7AF9F /* swiftPractice.xcdatamodeld in Sources */,
+				B3C953501D6C22D200B50174 /* SecondViewController.swift in Sources */,
+				B3C9534E1D6C22C500B50174 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +298,7 @@
 				B34559C61D69130F00E7AF9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

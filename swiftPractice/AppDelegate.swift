@@ -13,10 +13,23 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    private var myTabBarController: UITabBarController!
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        let myFirstTab: UIViewController = FirstViewController()
+        let mySecondTab: UIViewController = SecondViewController()
+        let myTabs = NSArray(objects: myFirstTab, mySecondTab)
+        
+        myTabBarController = UITabBarController()
+        
+        myTabBarController.setViewControllers(myTabs as? [UIViewController], animated: false)
+        
+        self.window?.rootViewController = myTabBarController
+        self.window?.makeKeyWindow()
+        
         return true
     }
 
